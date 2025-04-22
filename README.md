@@ -43,23 +43,29 @@ This project is my response to that challenge.
 
 ## 📂 Project Structure
 
+```plaintext
 sql-sales-analysis/
-│
-├── README.md                  
+│           
 ├── data/
-│   └── schema.sql             # Table creation scripts
+│   └── Metadata.txt            
+│   └── gdb023_dim_customer.sql      # Table creation scripts
+│   └── gdb023_dim_product.sql
+│   └── ... 
 │
 ├── queries/
-│   ├── 01_sales_summary.sql
-│   ├── 02_customer_segmentation.sql
-│   └── 03_profit_margin.sql
+│   ├── 01_atliq_markets_apac.sql
+│   ├── 02_unique_product_growth.sql
+│   └── 03_unique_product_count_by_segment.sql
+│   └── ...
 │
-└── Business Insights/
-│    └── summary_of_findings.md
 ├── visuals/
 │   └── trends_chart.png
+│      
+├── Insights.md       
+├── README.md       
 └── LICENSE
+```
 
 ## 🧠 Business Insights
 
-The SQL analysis surfaced multiple actionable insights for Atliq Hardwares’ management, spanning product strategy, customer behavior, sales performance, and operational efficiency
+The SQL analysis surfaced multiple actionable insights for Atliq Hardwares’ management, spanning product strategy, customer behavior, sales performance, and operational efficiency. You can read the entire report [here](Insights.md)
